@@ -21,4 +21,4 @@ jobs:
           git clone https://github.com/praveenganeshcp/nodejs-pm2-poc
           cd nodejs-pm2-poc
           npm i
-          pm2 restart index
+          pm2 start ecosystem.config.js
