@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/ping', (req, res) => {
     console.log('processing request by pid : ', process.pid);
-    res.json({ message: "Hello world" });
+    res.json({ message: "Hello world from lightsail" });
 })
 
 app.listen(3000);
